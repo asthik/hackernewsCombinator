@@ -38,7 +38,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sass-loader": "^8.0.2",
-    "webpack": "^4.42.1",
+    "webpack": "^4.43.0",
     "webpack-dev-server": "^3.10.3",
     "webpack-merge": "^4.2.2",
     "webpack-node-externals": "^1.7.2"
@@ -75,11 +75,18 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "webpack-cli": "^3.3.11"
   },
-  "babel" : {
+  "babel": {
     "env": {
       "production": {
         "plugins": [
-          ["react-remove-properties", {"properties": ["data-test"]}]
+          [
+            "react-remove-properties",
+            {
+              "properties": [
+                "data-test"
+              ]
+            }
+          ]
         ]
       }
     }
