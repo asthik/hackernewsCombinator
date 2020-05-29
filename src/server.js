@@ -8,7 +8,6 @@ const app = express();
 app.use(express.static('dist'));
 
 app.get("*", (req,res) => {
-    // const store = createStore();
     matchRoutes(Routes, req.path);
     res.send(renderer(req));
 })
