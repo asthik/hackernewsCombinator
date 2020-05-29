@@ -3,6 +3,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### 'npm run dev:buildserver'
+
+Starts the server side webpack config and watches it.
+
+### 'npm run dev:buildclient'
+
+Starts the client side webpack config and watches it.
+
+### 'npm run dev:server'
+
+Post changes in the build directory after server side config, triggers node build/bundle.js file.
+
+### 'npm run dev'
+
+Starts all the above three script in parallel mode with the help of npm run all
 
 ### `npm start`
 
