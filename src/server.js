@@ -13,6 +13,7 @@ app.get("*", (req,res) => {
     res.send(renderer(req));
 })
 
-app.listen(3000, () => {
+var port = process.env.PORT || 3000;
+app.listen(port, () => {
     console.log('LISTENING TO PORT 3000 SUCCESSFULLY!!');
 });
