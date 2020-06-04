@@ -1,32 +1,33 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run 'npm run dev' script as below first and then check the app at http://localhost:3000 URL or run the 'npm run start' script
-
 ## Available Scripts
 
-In the project directory, you can run:
-### 'npm run dev:buildserver'
-
-Starts the server side webpack config and watches it.
-
-### 'npm run dev:buildclient'
-
-Starts the client side webpack config and watches it.
-
-### 'npm run dev:server'
-
-Post changes in the build directory after server side config, triggers node build/bundle.js file.
-
-### 'npm run dev'
-
-Starts all the above three script in parallel mode with the help of npm run all
-
 ### `npm start`
+
 Runs 'node build/bundle.js' command to start the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+Run `npm run dev` script as below first and then check the app at http://localhost:3000 URL or run the 'npm run start' script
+
+In the project directory, you can run:
+### `npm run dev:buildserver`
+
+Starts the server side webpack config and watches it.
+
+### `npm run dev:buildclient`
+
+Starts the client side webpack config and watches it.
+
+### `npm run dev:server`
+
+Post changes in the build directory after server side config, triggers node build/bundle.js file.
+
+### `npm run dev`
+
+Starts all the above three script in parallel mode with the help of npm run all
 
 ### `npm test`
 
