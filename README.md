@@ -22,8 +22,7 @@ Post changes in the build directory after server side config, triggers node buil
 Starts all the above three script in parallel mode with the help of npm run all
 
 ### `npm start`
-
-Runs the app in the development mode.<br />
+Runs 'node build/bundle.js' command to start the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />

@@ -14,5 +14,5 @@ app.get("*", (req,res) => {
 
 var port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log('LISTENING TO PORT 3000 SUCCESSFULLY!!');
+    console.log(`LISTENING TO PORT ${port} SUCCESSFULLY!!`);
 });
